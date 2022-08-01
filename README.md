@@ -1,7 +1,7 @@
-# Smart2car_auto
+# Smart2car_basic
 
 Autor: Jordi Rodríguez  
-Práctica de programación ordenada en Arduino utilizando pestañas   
+Práctica de programación básica en Arduino   
 Crearemos un vehículo de 2 ruedas con el material especificado  
 Para la programación usaremos la plataforma Arduino IDE:  
 
