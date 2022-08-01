@@ -24,7 +24,7 @@ const uint8_t SENSOR_R = 4;
 
 const uint8_t FOTOSENSOR = 17; // = A3
 
-// I2C_LCD_SCA = A4;
+// I2C_LCD_SDA = A4;
 // I2C_LCD_SCL = A5;
 
 const uint8_t WHITE_R = 2;
