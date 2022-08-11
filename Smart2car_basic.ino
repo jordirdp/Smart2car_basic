@@ -2,20 +2,16 @@
 /* Project: Smart2car */
 /* Author: Jordi Rodriguez */
 
-// Definir bibliotecas:
-
-#include "Pinout.h"
-#include "Constants.h"
-
+// Define ultrasonidos HC-SR04
 #include <NewPing.h>
 NewPing sonar (TRIGGER_PIN, ECHO_PIN);
 
+// Define LCD
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd (0x27, 20, 4);
 
 // Definir Pinout:
-
 const uint8_t ECHO_PIN = 14; // = A0
 const uint8_t TRIGGER_PIN = 15; // =A1
 
@@ -46,14 +42,10 @@ const uint8_t BUZZER = 11;
 
 const int STOP_DISTANCE = 50; // Distancia de obstáculo para permanecer parado
 const int ATRAS_DISTANCE = 25; // Distancia de obstáculo para retroceder
-
 const int Velocidad = 150;    // Velocidad máxima para motores
-
 int Sensor_left = 0;
 int Sensor_right = 0;
-
 int Sensor_front = 0;
-
 int Sensor_luz = 0;
 
 

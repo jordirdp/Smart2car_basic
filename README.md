@@ -1,12 +1,22 @@
 # Smart2car_basic
 
 Autor: Jordi Rodríguez  
+  
 Práctica de programación básica en Arduino   
 Crearemos un vehículo de 2 ruedas con el material especificado  
 Para la programación usaremos la plataforma Arduino IDE:  
 
-https://www.arduino.cc/en/software
+https://www.arduino.cc/en/software  
+  
+Se han incluido las siguientes librerías:  
 
+- NewPing  
+https://bitbucket.org/teckel12/arduino-new-ping/src/master/  
+
+- LiquidCrystal I2C  
+https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library  
+  
+    
 Este código realiza las siguientes funciones simples:  
 - Lectura de sensores de línea  
 - Medición de distancia de obstáculo  
