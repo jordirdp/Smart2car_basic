@@ -4,39 +4,40 @@
 
 // Define ultrasonidos HC-SR04
 #include <NewPing.h>
-NewPing sonar (TRIGGER_PIN, ECHO_PIN);
+NewPing sonar (15, 14);
 
 // Define LCD
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C lcd (0x27, 20, 4);
+LiquidCrystal_I2C lcd (0x27, 16, 2);
 
 // Definir Pinout:
-const uint8_t ECHO_PIN = 14; // = A0
-const uint8_t TRIGGER_PIN = 15; // =A1
 
-const uint8_t SENSOR_L = 16; // = A2
-const uint8_t SENSOR_R = 4;
+// ECHO_PIN = 14; // = A0
+// TRIGGER_PIN = 15; // =A1
 
-const uint8_t FOTOSENSOR = 17; // = A3
+byte SENSOR_L = 16; // = A2
+byte SENSOR_R = 4;
+
+byte FOTOSENSOR = 17; // = A3
 
 // I2C_LCD_SDA = A4;
 // I2C_LCD_SCL = A5;
 
-const uint8_t WHITE_R = 2;
-const uint8_t WHITE_L = 13;
-const uint8_t RED_R = 3;
-const uint8_t RED_L = 12;
+byte WHITE_R = 2;
+byte WHITE_L = 13;
+byte RED_R = 3;
+byte RED_L = 12;
 
-const uint8_t ENB = 5;
-const uint8_t IN3 = 9;
-const uint8_t IN4 = 10;
+byte ENB = 5;
+byte IN3 = 9;
+byte IN4 = 10;
 
-const uint8_t ENA = 6;
-const uint8_t IN1 = 7;
-const uint8_t IN2 = 8;
+byte ENA = 6;
+byte IN1 = 7;
+byte IN2 = 8;
 
-const uint8_t BUZZER = 11;
+byte BUZZER = 11;
 
 // Definir Constants:
 
@@ -50,7 +51,7 @@ int Sensor_luz = 0;
 
 
 void setup() {
-  lcd.init();
+  lcd.begin();
   lcd.clear();
   lcd.setCursor (0,0);
   lcd.print("****Smart2car****");
