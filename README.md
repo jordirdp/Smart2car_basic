@@ -28,6 +28,7 @@ Este código realiza las siguientes funciones simples:
 
 ## Material utilizado
 
+- Arduino uno  
 - Arduino Shield Sensor v.5.0
 - HC-SR04 = Sensor ultrasonido de distancia
 - TCRT5000 = Sensor infrarrojo de proximidad (2x)
