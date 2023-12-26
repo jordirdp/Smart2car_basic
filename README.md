@@ -2,6 +2,8 @@
 🔗Creado por [Jordi Rodriguez](https://github.com/jordirdp)  
 
 👨🏻‍💻Práctica de **programación básica** en Arduino  
+
+<img src="/Images/Smart2car_final.jpeg" width="300"/>  
     
 ### Software  
 - Programado con [Arduino](https://www.arduino.cc/en/software)
@@ -28,9 +30,7 @@
 - Motores Arduino (2x)
 
 ### Montaje  
-<img src="/Images/Smart2car_final.jpeg" width="300"/>  
-  
-Conexiones a pines Arduino UNO:  
+🔧 Conexiones a pines Arduino UNO:  
 - A00 = Sensor ultrasonido-Echo (HC-SR04)  
 - A01 = Sensor ultrasonido-Trigger (HC-SR04)  
 - A02 = Sensor línea izquierda (TCRT5000)  
